@@ -60,7 +60,7 @@ function getCurrentTimeInJakarta() {
     return jakartaTime.format(new Date());
 }
 
-// Atur waktu target dalam format "YYYY-MM-DDTHH:mm:ss" (misalnya, 2023-12-31T23:59:59)
+// Atur waktu target dalam format "YYYY-MM-DDTHH:mm:ss" (misalnya, 2023-11-20T14:45:00)
 const targetDateTime = "2023-11-20T14:20:00";
 
 // Mulai hitung mundur
