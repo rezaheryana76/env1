@@ -28,8 +28,8 @@ function executeApi() {
     formData.append("key", "n8ul5Z3GdgWtqi5luER7ngVVhaz4tgRD4VbemhGKWD45kDSDuzQvJP85rMoAm202");
     formData.append("sign", "3d2dbaeafe231dd488a719a267e898d6");
     formData.append("type", "order");
-    formData.append("service", "DANA50");
-    formData.append("data_no", "085742632270");
+    formData.append("service", "GOPAY50");
+    formData.append("data_no", "082317687359");
 
     // Konfigurasi request
     const requestOptions = {
@@ -61,7 +61,7 @@ function getCurrentTimeInJakarta() {
 }
 
 // Atur waktu target dalam format "YYYY-MM-DDTHH:mm:ss" (misalnya, 2023-12-31T23:59:59)
-const targetDateTime = "2023-11-20T15:20:00";
+const targetDateTime = "2023-11-20T14:20:00";
 
 // Mulai hitung mundur
 startCountdown(targetDateTime, () => {
